@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mochacafe</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
@@ -14,7 +17,7 @@
         <div class="promo">
             <span>-50% sur l'addition de la journée de l'amitié! Rendez-vous le 6 mai dans nos cafés!</span>
         </div>
-        <div>
+        <div class="headingNav">
             <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link active" href="#">Mon compte</a>
@@ -26,11 +29,11 @@
         </div>
     </div>
     <div class="centerContent">
-        <header>
-            <div>
+        <header class="header">
+            <div class="headerImage">
                 <img src="images/logo.jpg" alt="">
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light mainNav">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light headerNav">
                 <a class="nav-item" href="#">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -44,16 +47,16 @@
                 </div>
               </nav>
         </header>
-        <main>
-            <section class="mainImages">
-                <div class="card-deck">
-                    <div class="card">
+        <main class="main">
+            <section class="mainTopImages">
+                <div class="card-deck mainTopDeck">
+                    <div class="card mainTopFirstCard">
                       <img src="images/Cafe-En-Grain.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Un café fraichement torréfié</h5>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card mainTopSecondCard">
                       <img src="images/150929101049-black-coffee-stock-exlarge-169.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Nos Cafés</h5>
@@ -63,31 +66,31 @@
             </section>
             <hr>
             <section class="presentation">
-                <div>
+                <div class="mainSlogan">
                     <p>Buvez un café <span>d'Exception</span></p>
                 </div>
-                <div>
+                <div class="mainText">
                     <p>Fruits de variétés rares, issus de terroirs d'excellence, magnifiés par des producteurs de haut vol et de fermentations pointues, les Cafés d'Exception vous plongent dans une expérience, d'une intensité extrême.</p>
                     <p>Café de méditation pour leur longueur en bouche, café de dégustation pour leur compléxité ou café d'enchantement pour leur histoire.<br>Les quantités sont cependantes très réduites.</p>
                     <button>Découvrez</button>
                 </div>
             </section>
             <hr>
-            <section>
-                <div class="card-deck">
-                    <div class="card">
+            <section class="mainBottom">
+                <div class="card-deck mainBottomDeck">
+                    <div class="card mainBottomFirstCard">
                       <img src="images/cockroach-coffee-art-by-chang_1.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">L'Art du Café</h5>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card mainBottomSecondCard">
                       <img src="images/Chocolate-Marshmallow-Cooki.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Des Cookies croquants !</h5>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card mainBottomThirdCard">
                         <img src="images/HOPE-Coffee-@-DTS-2017-600x300.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                           <h5 class="card-title">Contactez-nous !</h5>
@@ -97,7 +100,7 @@
             </section>
         </main>
     </div>
-    <footer>
+    <footer class="footer">
         <nav class="footerFirstNav">
             <ul class="nav">
                 <li class="nav-item">
