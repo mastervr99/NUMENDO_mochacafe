@@ -30,22 +30,19 @@
             <div>
                 <img src="https://via.placeholder.com/800x300" alt="">
             </div>
-            <nav class="mainNav">
-                <ul class="nav">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Nos cafés</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Nos cookies</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">ArtCoffee</a>
-                    </li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mainNav">
+                <a class="nav-item" href="#">Menu</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Nos Cafés <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">Nos Cookies <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="#">ArtCoffee <span class="sr-only">(current)</span></a>
+                  </div>
+                </div>
+              </nav>
         </header>
         <main>
             <section class="mainImages">
@@ -64,8 +61,8 @@
                     </div>
                 </div>
             </section>
+            <hr>
             <section class="presentation">
-                <hr>
                 <div>
                     <p>Buvez un café <span>d'Exception</span></p>
                 </div>
@@ -74,8 +71,8 @@
                     <p>Café de méditation pour leur longueur en bouche, café de dégustation pour leur compléxité ou café d'enchantement pour leur histoire.<br>Les quantités sont cependantes très réduites.</p>
                     <button>Découvrez</button>
                 </div>
-                <hr>
             </section>
+            <hr>
             <section>
                 <div class="card-deck">
                     <div class="card">
@@ -101,9 +98,22 @@
         </main>
     </div>
     <footer>
-        <div>
-
-        </div>
+        <nav class="footerNav">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nos cafés</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Nos cookies</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">ArtCoffee</a>
+                </li>
+            </ul>
+        </nav>
         <div>
             
         </div>
