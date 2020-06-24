@@ -1,4 +1,4 @@
-.body, .heading, .centerSpace, .centerContent, .header, .headerNav .main, .presentation, .footer, .headerImage {
+.body, .heading, .centerSpace, .centerContent, .header, .headerNav .main, .presentation, .footer, .headerImage, .-alignCenter {
     display: flex;
 }
 
@@ -18,14 +18,20 @@
 
 .header {
     width: 100%;
+    align-items: center;
 }
 
-.headerImage img {
-    width: 100%;
+.headerImage {
+    height: 80%;
+    width: 40%;
+    padding: 1em;
 }
 
 .headerNav {
     background-color: #996633;
+    width: 100%;
+    padding-left: 18em;
+    padding-right: 18em;
 }
 
 .centerSpace{
@@ -60,6 +66,8 @@
     background-color: #996600;
 }
 
-
+.-alignCenter > a{
+    justify-items: center;
+}
 
 
