@@ -1,2 +1,65 @@
+.body, .heading, .centerSpace, .centerContent, .header, .headerNav .main, .presentation, .footer, .headerImage {
+    display: flex;
+}
+
+.body, .centerContent, .header, .main, .footer {
+    flex-direction: column;
+}
+
+.heading, .presentation {
+    flex-direction: row;    
+}
+
+.heading {
+    background-color: #800000;
+    color: white;
+    justify-content: center;
+}
+
+.header {
+    width: 100%;
+}
+
+.headerImage img {
+    width: 100%;
+}
+
+.headerNav {
+    background-color: #996633;
+}
+
+.centerSpace{
+    justify-content: center;
+    background-color: rosybrown;
+}
+
+.centerContent {
+    width: 60%;
+    align-items: center;
+    background-color: white;
+}
+
+.main {
+    padding: 2em;
+}
+
+.presentation {
+    width: 100%;
+}
+
+.mainSlogan {
+    width: 50%;
+}
+
+.mainText {
+    width: 50%;
+}
+
+.footer {
+    align-items: center;
+    background-color: #996600;
+}
+
+
 
 
