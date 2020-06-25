@@ -14,6 +14,11 @@
     background-color: #800000;
     color: white;
     justify-content: center;
+    align-items: center;
+}
+
+.headingNav {
+    padding-left: 10em;    
 }
 
 .header {
