@@ -1,4 +1,4 @@
-.body, .heading, .centerSpace, .centerContent, .header, .headerNav .main, .presentation, .footer, .headerImage, .-alignCenter {
+.body, .heading, .centerSpace, .centerContent, .header, .headerNav, .main, .presentation, .footer, .headerImage {
     display: flex;
 }
 
@@ -6,7 +6,7 @@
     flex-direction: column;
 }
 
-.heading, .presentation {
+.heading, .presentation, .headerNav {
     flex-direction: row;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .headingNav {
-    padding-left: 10em;    
+    padding-left: 10%;    
 }
 
 .header {
@@ -35,6 +35,16 @@
 .headerNav {
     background-color: #996633;
     width: 100%;
+}
+
+.nav-item.-hidden {
+    display: none;
+}
+
+
+.nav-item.nav-link.active.-headerNavItem {
+    color: white;
+    padding-right: 2em;
 }
 
 .centerSpace{
@@ -79,11 +89,11 @@ main .card-img-top {
 
 .mainSlogan p {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 200%;
 }
 
 .mainSlogan p span {
-    font-size: 1.2em;
+    font-size: 70%;
     color: #996600;
 }
 
