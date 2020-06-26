@@ -1,4 +1,4 @@
-.body, .heading, .centerSpace, .centerContent, .header, .headerNav, .main, .presentation, .footer, .headerImage {
+.body, .heading, .centerSpace, .centerContent, .header, .headerNav, .main, .footer, .headerImage {
     display: flex;
 }
 
@@ -6,9 +6,10 @@
     flex-direction: column;
 }
 
-.heading, .presentation, .headerNav {
+.heading, .headerNav {
     flex-direction: row;
 }
+
 
 .heading {
     background-color: #800000;
@@ -62,6 +63,7 @@
     padding: 2em;
 }
 
+
 .mainTopFirstCard, .mainTopSecondCard, .mainBottomFirstCard, .mainBottomSecondCard, .mainBottomThirdCard {
     border: none;
     text-align: center;
@@ -78,28 +80,32 @@ main .card-img-top {
     object-fit: fill;
 }
 
-.presentation {
-    width: 100%;
+.mainSloganCard {
+    border: none;
 }
 
-.mainSlogan {
-    width: 50%;
-    text-align: center;
-}
-
-.mainSlogan p {
+.mainSlogan h2 {
     font-weight: bold;
-    font-size: 200%;
+    font-size: 3em;
 }
 
-.mainSlogan p span {
-    font-size: 70%;
+.mainSlogan h2 span {
     color: #996600;
 }
 
-.mainText {
-    width: 50%;
+.mainTextCard {
+    border: none;
 }
+
+.mainText {
+    font-size: 0.6em;
+}
+
+.mainTextCard a {
+    color: white;
+    background-color: #996600;
+}
+
 
 .footer {
     align-items: center;
@@ -109,5 +115,12 @@ main .card-img-top {
 
 .footerSecondNav li{
     font-size: 0.6em;
+}
+
+/* TEST EN COURS */
+
+div#test, div#test2 {
+    padding-bottom: 0;
+    background-color: #800000;
 }
 
