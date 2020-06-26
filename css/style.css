@@ -19,7 +19,11 @@
 }
 
 .headingNav {
-    padding-left: 10%;    
+    padding-left: 10%;
+}
+
+.headingNav a {
+    color: white;
 }
 
 .header {
@@ -28,14 +32,16 @@
 }
 
 .headerImage {
-    height: 80%;
-    width: 40%;
-    padding: 1em;
+    /* height: 80%; */
+    /* width: 40%; */
+    height: 12em;
+    width: 20em;
 }
 
 .headerNav {
     background-color: #996633;
     width: 100%;
+    padding: 0;
 }
 
 .nav-item.-hidden {
@@ -106,11 +112,14 @@ main .card-img-top {
     background-color: #996600;
 }
 
-
 .footer {
     align-items: center;
     background-color: #996600;
     padding : 1em;
+}
+
+.footer a {
+    color: white;
 }
 
 .footerSecondNav li{
