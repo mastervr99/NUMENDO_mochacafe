@@ -74,6 +74,11 @@ a:hover {
     padding: 2em;
 }
 
+.main .card-img-top {
+    width: 100%;
+    height: 65%;
+    object-fit: fill;
+}
 
 .mainTopFirstCard, .mainTopSecondCard, .mainBottomFirstCard, .mainBottomSecondCard, .mainBottomThirdCard {
     border: none;
@@ -81,14 +86,13 @@ a:hover {
     font-weight: bold;
 }
 
-.mainBottomFirstCard h5, .mainBottomSecondCard h5, .mainBottomThirdCard h5{
-    font-size: 1em;
+.mainTopImages {
+    height: 35%;
 }
 
-main .card-img-top {
+.presentation hr {
     width: 100%;
-    height: 65%;
-    object-fit: fill;
+    z-index: 50;
 }
 
 .mainSloganCard {
@@ -97,7 +101,7 @@ main .card-img-top {
 
 .mainSlogan h2 {
     font-weight: bold;
-    font-size: 3em;
+    font-size: 260%;
 }
 
 .mainSlogan h2 span {
@@ -136,6 +140,10 @@ main .card-img-top {
     transform: none;
 }
 
+.main {
+    /* background-color: #553019; */
+}
+
 .mainBottomDeck div {
     transition: transform .1s;
 }
@@ -145,13 +153,17 @@ main .card-img-top {
 }
 
 .mainBottomDeck div img:hover {
-
     transform: scale(1.3);
     transition-timing-function: ease-in;
     border-radius: 50%;
     position: absolute;
     z-index: 5;
 }
+
+.mainBottomFirstCard h5, .mainBottomSecondCard h5, .mainBottomThirdCard h5{
+    font-size: 1em;
+}
+
 
 .footer {
     align-items: center;
@@ -167,9 +179,4 @@ main .card-img-top {
     font-size: 0.6em;
 }
 
-/* TEST EN COURS */
 
-div#test, div#test2 {
-    padding-bottom: 0;
-    background-color: #800000;
-}
