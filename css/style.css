@@ -12,8 +12,8 @@
 
 
 .heading {
-    background-color: #800000;
-    color: white;
+    background-color: #553019 ;
+    color: #ffffff;
     justify-content: center;
     align-items: center;
 }
@@ -23,7 +23,7 @@
 }
 
 .headingNav a {
-    color: white;
+    color: #ffffff;
 }
 
 .header {
@@ -39,7 +39,7 @@
 }
 
 .headerNav {
-    background-color: #996633;
+    background-color: #b57a46 ;
     width: 100%;
     padding: 0;
 }
@@ -50,19 +50,19 @@
 
 
 .nav-item.nav-link.active.-headerNavItem {
-    color: white;
+    color: #ffffff;
     padding-right: 2em;
 }
 
 .centerSpace{
     justify-content: center;
-    background-color: rosybrown;
+    background-color: #d2b48c  ;
 }
 
 .centerContent {
     width: 60%;
     align-items: center;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .main {
@@ -96,7 +96,8 @@ main .card-img-top {
 }
 
 .mainSlogan h2 span {
-    color: #996600;
+    color: #b57a46 ;
+    font-size: 1.2em;
 }
 
 .mainTextCard {
@@ -108,18 +109,24 @@ main .card-img-top {
 }
 
 .mainTextCard a {
-    color: white;
-    background-color: #996600;
+    color: #ffffff;
+    background-color: #b57a46;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-radius: 0;
+    padding: 0.1em 1em;
 }
+
+
 
 .footer {
     align-items: center;
-    background-color: #996600;
+    background-color: #b57a46;
     padding : 1em;
 }
 
 .footer a {
-    color: white;
+    color: #ffffff;
 }
 
 .footerSecondNav li{
@@ -133,3 +140,6 @@ div#test, div#test2 {
     background-color: #800000;
 }
 
+.mainBottomDeck div.card-body {
+
+}
