@@ -23,6 +23,7 @@ a:hover {
     position: sticky;
     top: 0;
     z-index: 10;
+    flex-wrap: wrap;
 }
 
 .headingNav {
@@ -174,6 +175,16 @@ a:hover {
 .footerSecondNav li{
     font-size: 0.6em;
 }
+
+
+/******************** MEDIA QUERIES  *****************/
+@media screen and(max-width: 900)
+{
+
+
+    
+}
+
 
 /*********************TESTING  ***************/
 
