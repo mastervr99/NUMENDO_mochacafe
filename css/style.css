@@ -140,10 +140,6 @@ a:hover {
     transform: none;
 }
 
-.main {
-    /* background-color: #553019; */
-}
-
 .mainBottomDeck div {
     transition: transform .1s;
 }
@@ -178,5 +174,7 @@ a:hover {
 .footerSecondNav li{
     font-size: 0.6em;
 }
+
+/*********************TESTING  ***************/
 
 
