@@ -10,10 +10,7 @@
     flex-direction: row;
 }
 
-a:hover {
-    transform: scale(1.5);
-    transition-duration: 1s;
-}
+
 
 .heading {
     background-color: #553019 ;
@@ -24,6 +21,14 @@ a:hover {
     top: 0;
     z-index: 10;
     flex-wrap: wrap;
+}
+
+.-minSizePromo {
+    width: 100%;
+    border-radius: 0;
+    background-color: #b57a46;
+    border: none;
+    color: white;
 }
 
 .headingNav {
@@ -50,14 +55,14 @@ a:hover {
     padding: 0;
 }
 
-.nav-item.-hidden {
-    display: none;
-}
-
 
 .nav-item.nav-link.active.-headerNavItem {
     color: #ffffff;
     padding-right: 2em;
+}
+
+.-headerNavItem .-hidden {
+    display: none;
 }
 
 .centerSpace{
@@ -118,15 +123,6 @@ a:hover {
     font-size: 0.6em;
 }
 
-.mainText:hover {
-    transition-duration: 1s;
-    font-size: 0.8em;
-    position: absolute;
-    z-index: 5;
-    background-color: #ffffff;
-    border: solid #b57a46;
-    border-radius: 2em;
-}
 
 .mainTextCard a {
     color: #ffffff;
@@ -147,14 +143,6 @@ a:hover {
 
 .mainBottomDeck div img {
     transition: all 1s;
-}
-
-.mainBottomDeck div img:hover {
-    transform: scale(1.3);
-    transition-timing-function: ease-in;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 5;
 }
 
 .mainBottomFirstCard h5, .mainBottomSecondCard h5, .mainBottomThirdCard h5{
@@ -178,12 +166,88 @@ a:hover {
 
 
 /******************** MEDIA QUERIES  *****************/
-@media screen and(max-width: 900)
+
+@media screen and (min-width: 992px)
+{
+    .nav-item.-hidden {
+        display: none;
+    }
+
+    .-headerNavItem .-hidden {
+        display: inline-flex;
+    }
+
+}
+
+@media screen and (max-width: 991px)
 {
 
+}
 
+@media screen and (min-width: 900px)
+{
+    a:hover {
+        transform: scale(1.5);
+        transition-duration: 1s;
+    }
+
+    .mainText:hover{
+        transition-duration: 1s;
+        font-size: 0.8em;
+        position: absolute;
+        z-index: 5;
+        background-color: #ffffff;
+        border: solid #b57a46;
+        border-radius: 2em; 
+    }
+
+    .mainBottomDeck div img:hover {
+        transform: scale(1.3);
+        transition-timing-function: ease-in;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 5;
+    }
+}
+
+@media screen and (min-width: 891px)
+{
+    .-minSizePromo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 890px)
+{
+    .body {
+        /* width: 22em; */
+    }
+
+    .promo {
+        display: none;
+    }
+
+    .-minSizePromo {
+        margin-bottom: 0;
+    }
+
+    .headingNav {
+        padding-left: 0;
+    }
+
+    .iconItem i{
+        font-size: 1.5em;
+    }
+
+
+}
+
+@media screen and (max-width: 560px)
+{
     
 }
+
+
 
 
 /*********************TESTING  ***************/
