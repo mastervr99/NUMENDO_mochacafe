@@ -90,7 +90,7 @@
     object-fit: fill;
 }
 
-.mainTopFirstCard, .mainTopSecondCard, .mainBottomFirstCard, .mainBottomSecondCard, .mainBottomThirdCard {
+.mainTopMobileHiddenCard, .mainTopSecondCard, .mainBottomFirstCard, .mainBottomSecondCard, .mainBottomThirdCard, .mainTopDesktopHiddenCard {
     border: none;
     text-align: center;
     font-weight: bold;
@@ -251,6 +251,20 @@
     }
 
 
+}
+
+@media screen and (min-width: 576px)
+{
+    .mainTopDesktopHiddenCard{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px)
+{
+    .mainTopMobileHiddenCard{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 560px)
