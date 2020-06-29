@@ -170,12 +170,8 @@
 
 @media screen and (min-width: 992px)
 {
-    .nav-item.-hidden {
+    .-hiddenItem {
         display: none;
-    }
-
-    .-headerNavItem .-hidden {
-        display: inline-flex;
     }
 
 }
@@ -245,7 +241,14 @@
 
 @media screen and (max-width: 560px)
 {
+    .centerContent{
+        width: 100%;
+    }
 
+    .headerImage{
+        margin: 1em 0;
+        font-size: larger;
+    }
 }
 
 
