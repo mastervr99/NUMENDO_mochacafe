@@ -107,11 +107,16 @@
 
 .mainSloganCard {
     border: none;
+    text-align: center;
+}
+
+.mainSlogan {
+    /* justify-content: center; */
 }
 
 .mainSlogan h2 {
     font-weight: bold;
-    font-size: 260%;
+    font-size: 2.5em;
 }
 
 .mainSlogan h2 span {
@@ -152,7 +157,6 @@
 .mainBottomFirstCard h5, .mainBottomSecondCard h5, .mainBottomThirdCard h5{
     font-size: 1em;
 }
-
 
 .footer {
     align-items: center;
@@ -265,6 +269,20 @@
     .mainTopMobileHiddenCard{
         display: none;
     }
+
+    .presentation {
+        text-align: center;
+    }
+
+    .mainTopDeck .card-text, .mainBottomDeck .card-text {
+        font-size: 1.2em;
+    }
+    
+    .mainText {
+        font-size: 1em;
+    }    
+
+
 }
 
 @media screen and (max-width: 560px)
@@ -279,7 +297,26 @@
     }
 }
 
+@media screen and (max-width: 427px)
+{
 
+    .footer{
+        font-size: x-large;
+    }
+
+    .footerFirstNav .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footerSecondNav .nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 /*********************TESTING  ***************/
