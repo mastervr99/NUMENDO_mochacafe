@@ -56,6 +56,9 @@
     padding: 0;
 }
 
+.-hiddenItemInDesktop {
+    color: #ffffff;
+}
 
 .nav-item.nav-link.active.-headerNavItem {
     color: #ffffff;
@@ -170,7 +173,7 @@
 
 @media screen and (min-width: 992px)
 {
-    .-hiddenItem {
+    .-hiddenItemInDesktop {
         display: none;
     }
 
@@ -178,7 +181,18 @@
 
 @media screen and (max-width: 991px)
 {
+    .-hiddenItemInMobile {
+        display: none;
+    }
 
+    .headerNav {
+        text-align: center;
+    }
+
+    .-hiddenItemInDesktop {
+        margin: 0 auto;
+    }
+    
 }
 
 @media screen and (min-width: 900px)
