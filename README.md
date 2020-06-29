@@ -1,5 +1,5 @@
 # NUMENDO_mochacafe
- This is a website developped on a model.
+ This is a website base on a  graphic model.
 
 Author :
 
